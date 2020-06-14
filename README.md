@@ -18,6 +18,7 @@ Volte à branch principal | `git checkout master`
 Unir branch | `git merge feature/deno-api`
 indo para o branch da feature | `git checkout feature`
 fazendo o merge entre o feature e o master | `git merge master`
+fazendo o rebase entre o feature e o master | `git rebase master`
 ------ | ------
 __Comandos__ | ------
 Iniciar Projeto|`deno run https://deno.land/std/examples/welcome.ts`
