@@ -16,6 +16,8 @@ Commit git|`git commit -m "git inicial"`
 Criar branch | `git checkout -b feature/deno-api`
 Volte à branch principal | `git checkout master`
 Unir branch | `git merge feature/deno-api`
+indo para o branch da feature | `git checkout feature`
+fazendo o merge entre o feature e o master | `git merge master`
 ------ | ------
 __Comandos__ | ------
 Iniciar Projeto|`deno run https://deno.land/std/examples/welcome.ts`
