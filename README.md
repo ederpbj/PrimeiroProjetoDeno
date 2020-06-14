@@ -19,3 +19,6 @@ Unir branch | `git merge feature/deno-api`
 ------ | ------
 __Comandos__ | ------
 Iniciar Projeto|`deno run https://deno.land/std/examples/welcome.ts`
+Rodar com flags rede e escrever | `deno run --unstable --allow-net --allow-write index.ts`
+Rodar com flags rede e ler | `deno run --unstable --allow-net --allow-read app.ts`
+chmod +x run.sh
