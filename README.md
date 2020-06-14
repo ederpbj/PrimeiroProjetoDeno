@@ -13,6 +13,7 @@ Iniciar git|`git init`
 Origin git|`git remote add origin https://github.com/ederpbj/Mongo-login-reg`
 Adicionar git|`git add .`
 Commit git|`git commit -m "git inicial"`
+Criar branch | `git checkout –b feature`
 Criar branch | `git checkout -b feature/deno-api`
 Volte à branch principal | `git checkout master`
 Unir branch | `git merge feature/deno-api`
