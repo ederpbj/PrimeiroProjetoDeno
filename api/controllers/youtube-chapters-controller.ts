@@ -9,4 +9,18 @@ const getChapters = async (
   response.body = chapters;
 };
 
-export { getChapters };
+const searchChapter = (id: string, seconds: string): (IChapter | undefined) =>
+  chapters.filter((item) => item.timeInSeconds === parseInt(seconds))[0]
+
+const getChapter = ({ params, response }: { params: { id: string; seconds: string}; response: any}) = {
+  const chaper: IChapter | undefined = searchChapter(params.id, params.seconds);
+  if (chaper) {
+    response.status = 200;
+    reponse.body = chaper;
+  } else {
+    response.status = 404;
+    response.body = {message: 'Chaper not found'}
+  }
+}
+
+export { getChapters, searchChapter };

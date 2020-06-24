@@ -2,7 +2,10 @@
 Primeiro Projeto Deno
 
 ## Links 
+
 [Deno oficial](https://deno.land/)
+
+[Git rebase e merge](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
 
 ## Comandos no terminal
 
@@ -13,10 +16,10 @@ Iniciar git|`git init`
 Origin git|`git remote add origin https://github.com/ederpbj/Mongo-login-reg`
 Adicionar git|`git add .`
 Commit git|`git commit -m "git inicial"`
-Criar branch | `git checkout –b feature`
 Criar branch | `git checkout -b feature/deno-api`
 Volte à branch principal | `git checkout master`
 Unir branch | `git merge feature/deno-api`
+
 indo para o branch da feature | `git checkout feature`
 fazendo o merge entre o feature e o master | `git merge master`
 fazendo o rebase entre o feature e o master | `git rebase master`
